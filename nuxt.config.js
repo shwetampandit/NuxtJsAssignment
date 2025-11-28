@@ -1,7 +1,6 @@
 export default {
   mode: 'spa',
-  // target: 'static' - removed to allow proxy in dev mode
-  // Use 'nuxt generate' for static builds
+  target: 'static', // Required for Netlify deployment
   head: {
     title: 'Country Explorer',
     meta: [
